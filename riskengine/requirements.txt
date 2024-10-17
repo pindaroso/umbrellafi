@@ -65,6 +65,6 @@ tzlocal==5.2
 urllib3==1.26.15
 validators==0.22.0
 webencodings==0.5.1
-Werkzeug==3.0.1
+Werkzeug==3.0.3
 yfinance==0.2.31
 zipp==3.17.0
