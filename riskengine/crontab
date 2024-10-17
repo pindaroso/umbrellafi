@@ -1,0 +1,1 @@
+0 5,17 * * * /root/.pyenv/versions/riskengine/bin/python /root/riskengine/cli.py fetch-all-asset-prices

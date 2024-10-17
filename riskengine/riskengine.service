@@ -1,0 +1,13 @@
+[Unit]
+Description=Gunicorn instance to serve risk engine
+After=network.target
+
+[Service]
+User=root
+Group=root
+WorkingDirectory=/root/riskengine
+Environment="PATH=/root/.pyenv/versions/riskengine/bin'
+ExecStart=/root/.pyenv/versions/riskengine/bin/gunicorn --workers 4 --bind 0.0.0.0:5000 wsgi:app
+
+[Install]
+WantedBy=multi-user.target
