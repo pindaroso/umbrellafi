@@ -18,7 +18,7 @@
     "ethers": "^6.8.1",
     "ethersjs": "^0.0.1-security",
     "framer-motion": "^10.16.4",
-    "next": "14.0.1",
+    "next": "14.2.21",
     "next-swagger-doc": "^0.4.0",
     "postcss": "^8.4.31",
     "postcss-cli": "^10.1.0",
